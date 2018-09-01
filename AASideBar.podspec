@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
           #7.
           s.platform            = :ios, "10.0"
           #8.
-          s.source              = { :git => "https://github.com/amir-ardalanuk/AASideBar", :tag => "1.0.0" }
+          s.source              = { :git => "https://github.com/amir-ardalanuk/AASideBar.git", :tag => "1.0.0" }
           #9.
           s.source_files     = "AASideBar/*"
     end
