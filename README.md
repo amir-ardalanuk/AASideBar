@@ -1,5 +1,5 @@
-# AACountDowner
-Cool CountDowner ! 
+# AASideBar
+Simplest SideBar!
 ### Requirements
 
    - iOS 10.0+ 
@@ -10,7 +10,7 @@ Cool CountDowner !
 
 you can use in cocoapods
 ```swift
-pod 'AACountDowner'
+pod 'AASideBar'
 ```
 
 ![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/CountDowner.gif)
