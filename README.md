@@ -12,10 +12,11 @@ you can use in cocoapods
 ```swift
 pod 'AASideBar'
 ```
-https://github.com/amir-ardalanuk/AASideBar/blob/master/screenView3.gif
+
 ![](https://github.com/amir-ardalanuk/AASideBar/blob/master/ScreenVideo2.gif)
 ![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenVideo.gif)
 ![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenView3.gif)
+
 ## init
 first : 
 ```swift
@@ -25,9 +26,7 @@ next :
 ```swift
  SideBar.shared.create(source: self.view, addView: sideBarContainer!.view , width: 120)
 ```
-you can add your view instead of ````swift
-sidevarContainer!.view
-```
+you can add your view instead of sidevarContainer!.view
 
 ## License
 
