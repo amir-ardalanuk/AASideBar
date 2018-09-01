@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F43F3A29213A80AD0084974F /* AASideBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F43F3A27213A80AD0084974F /* AASideBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F43F3A58213A82B40084974F /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F3A54213A82B40084974F /* SideBar.swift */; };
-		F43F3A5C213A83140084974F /* SideBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F3A5B213A83140084974F /* SideBarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +16,6 @@
 		F43F3A27213A80AD0084974F /* AASideBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AASideBar.h; sourceTree = "<group>"; };
 		F43F3A28213A80AD0084974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43F3A54213A82B40084974F /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
-		F43F3A56213A82B40084974F /* SiderBarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiderBarTableViewCell.swift; sourceTree = "<group>"; };
-		F43F3A57213A82B40084974F /* SideBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
-		F43F3A5B213A83140084974F /* SideBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				F43F3A54213A82B40084974F /* SideBar.swift */,
-				F43F3A5B213A83140084974F /* SideBarModel.swift */,
-				F43F3A57213A82B40084974F /* SideBarTableViewController.swift */,
-				F43F3A56213A82B40084974F /* SiderBarTableViewCell.swift */,
 				F43F3A27213A80AD0084974F /* AASideBar.h */,
 				F43F3A28213A80AD0084974F /* Info.plist */,
 			);
@@ -140,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43F3A5C213A83140084974F /* SideBarModel.swift in Sources */,
 				F43F3A58213A82B40084974F /* SideBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
