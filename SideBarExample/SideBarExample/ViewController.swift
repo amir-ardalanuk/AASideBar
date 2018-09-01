@@ -17,7 +17,7 @@ class ViewController: UIViewController  {
         
         //SideBar.shared.create(source: self.view, addView: ccView!, width: 200)
         sideBarContainer = TableViewController.newInstance(delegate: self)
-        SideBar.shared.create(source: self.view, addView: sideBarContainer!.view)
+        SideBar.shared.create(source: self.view, addView: sideBarContainer!.view , width: 120)
         
         
         
