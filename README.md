@@ -13,6 +13,8 @@ you can use in cocoapods
 pod 'AASideBar'
 ```
 
+![](https://github.com/amir-ardalanuk/AASideBar/blob/master/AASideBar-2.png)
+
 ![](https://github.com/amir-ardalanuk/AASideBar/blob/master/ScreenVideo2.gif)
 
 ![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenView4.gif)
