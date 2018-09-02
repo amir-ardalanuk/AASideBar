@@ -14,6 +14,11 @@
 		F43F3A7A213A8A2B0084974F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43F3A78213A8A2B0084974F /* LaunchScreen.storyboard */; };
 		F43F3A8A213A8B490084974F /* AASideBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43F3A82213A8A6F0084974F /* AASideBar.framework */; };
 		F43F3A8D213A9AFC0084974F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F3A8C213A9AFC0084974F /* TableViewController.swift */; };
+		F43F3A8F213B97AD0084974F /* Connectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F3A8E213B97AD0084974F /* Connectable.swift */; };
+		F43F3A92213B981B0084974F /* CustomSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F3A91213B981B0084974F /* CustomSideBar.swift */; };
+		F43F3A94213B983D0084974F /* CustomSideBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43F3A93213B983D0084974F /* CustomSideBar.xib */; };
+		F43F3B39213BD7E40084974F /* GrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F3B38213BD7E40084974F /* GrayView.swift */; };
+		F43F3B3C213BD7F70084974F /* GrayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43F3B3B213BD7F70084974F /* GrayView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +44,11 @@
 		F43F3A7B213A8A2B0084974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43F3A82213A8A6F0084974F /* AASideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AASideBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43F3A8C213A9AFC0084974F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F43F3A8E213B97AD0084974F /* Connectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectable.swift; sourceTree = "<group>"; };
+		F43F3A91213B981B0084974F /* CustomSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSideBar.swift; sourceTree = "<group>"; };
+		F43F3A93213B983D0084974F /* CustomSideBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSideBar.xib; sourceTree = "<group>"; };
+		F43F3B38213BD7E40084974F /* GrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayView.swift; sourceTree = "<group>"; };
+		F43F3B3B213BD7F70084974F /* GrayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrayView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +83,12 @@
 		F43F3A6E213A8A2A0084974F /* SideBarExample */ = {
 			isa = PBXGroup;
 			children = (
+				F43F3B3A213BD7EA0084974F /* Gray */,
+				F43F3A90213B97F70084974F /* Custom view */,
 				F43F3A8B213A9AF00084974F /* Tableview */,
 				F43F3A6F213A8A2A0084974F /* AppDelegate.swift */,
 				F43F3A71213A8A2A0084974F /* ViewController.swift */,
+				F43F3A8E213B97AD0084974F /* Connectable.swift */,
 				F43F3A73213A8A2A0084974F /* Main.storyboard */,
 				F43F3A76213A8A2B0084974F /* Assets.xcassets */,
 				F43F3A78213A8A2B0084974F /* LaunchScreen.storyboard */,
@@ -98,6 +111,24 @@
 				F43F3A8C213A9AFC0084974F /* TableViewController.swift */,
 			);
 			path = Tableview;
+			sourceTree = "<group>";
+		};
+		F43F3A90213B97F70084974F /* Custom view */ = {
+			isa = PBXGroup;
+			children = (
+				F43F3A91213B981B0084974F /* CustomSideBar.swift */,
+				F43F3A93213B983D0084974F /* CustomSideBar.xib */,
+			);
+			path = "Custom view";
+			sourceTree = "<group>";
+		};
+		F43F3B3A213BD7EA0084974F /* Gray */ = {
+			isa = PBXGroup;
+			children = (
+				F43F3B38213BD7E40084974F /* GrayView.swift */,
+				F43F3B3B213BD7F70084974F /* GrayView.xib */,
+			);
+			path = Gray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43F3B3C213BD7F70084974F /* GrayView.xib in Resources */,
 				F43F3A7A213A8A2B0084974F /* LaunchScreen.storyboard in Resources */,
 				F43F3A77213A8A2B0084974F /* Assets.xcassets in Resources */,
 				F43F3A75213A8A2A0084974F /* Main.storyboard in Resources */,
+				F43F3A94213B983D0084974F /* CustomSideBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43F3A72213A8A2A0084974F /* ViewController.swift in Sources */,
+				F43F3A92213B981B0084974F /* CustomSideBar.swift in Sources */,
 				F43F3A8D213A9AFC0084974F /* TableViewController.swift in Sources */,
+				F43F3B39213BD7E40084974F /* GrayView.swift in Sources */,
+				F43F3A8F213B97AD0084974F /* Connectable.swift in Sources */,
 				F43F3A70213A8A2A0084974F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

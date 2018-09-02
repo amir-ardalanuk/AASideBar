@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GrayView" customModule="SideBarExample" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bF3-za-7cR">
+                    <rect key="frame" x="0.0" y="0.0" width="183" height="667"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="m05-bb-Eza">
+                            <rect key="frame" x="0.0" y="0.0" width="183" height="667"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xa5-OL-DUN">
+                                    <rect key="frame" x="0.0" y="0.0" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcN-NB-3Sc">
+                                            <rect key="frame" x="76.5" y="14.5" width="30" height="46"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" title="X">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="fcN-NB-3Sc" firstAttribute="centerX" secondItem="xa5-OL-DUN" secondAttribute="centerX" id="AGg-Zd-oSR"/>
+                                        <constraint firstItem="fcN-NB-3Sc" firstAttribute="centerY" secondItem="xa5-OL-DUN" secondAttribute="centerY" id="C7f-WS-6Le"/>
+                                        <constraint firstAttribute="height" constant="75" id="iJn-T7-ZYk"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wjp-ow-bTr">
+                                    <rect key="frame" x="0.0" y="76" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnC-Tx-nek">
+                                            <rect key="frame" x="75.5" y="20.5" width="32" height="34"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" image="icons8-record">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="75" id="Zmt-fX-Wz6"/>
+                                        <constraint firstItem="wnC-Tx-nek" firstAttribute="centerY" secondItem="Wjp-ow-bTr" secondAttribute="centerY" id="x7l-6m-Tha"/>
+                                        <constraint firstItem="wnC-Tx-nek" firstAttribute="centerX" secondItem="Wjp-ow-bTr" secondAttribute="centerX" id="zv8-al-Ash"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gLG-Js-v0b">
+                                    <rect key="frame" x="0.0" y="152" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iX-ju-oPc">
+                                            <rect key="frame" x="75.5" y="20.5" width="32" height="34"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" image="icons8-image_file">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="2iX-ju-oPc" firstAttribute="centerY" secondItem="gLG-Js-v0b" secondAttribute="centerY" id="LyJ-Yh-Rcc"/>
+                                        <constraint firstItem="2iX-ju-oPc" firstAttribute="centerX" secondItem="gLG-Js-v0b" secondAttribute="centerX" id="jEr-C7-qsa"/>
+                                        <constraint firstAttribute="height" constant="75" id="nEi-5n-z60"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-4g-nXB">
+                                    <rect key="frame" x="0.0" y="228" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fJ-r3-W7n">
+                                            <rect key="frame" x="75.5" y="20.5" width="32" height="34"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" image="icons8-saving_book">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="1fJ-r3-W7n" firstAttribute="centerX" secondItem="mWf-4g-nXB" secondAttribute="centerX" id="Fo4-y8-0oT"/>
+                                        <constraint firstAttribute="height" constant="75" id="hGW-cz-9Rt"/>
+                                        <constraint firstItem="1fJ-r3-W7n" firstAttribute="centerY" secondItem="mWf-4g-nXB" secondAttribute="centerY" id="nBN-yl-InH"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9O-8A-vUf">
+                                    <rect key="frame" x="0.0" y="304" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-eM-d0D">
+                                            <rect key="frame" x="75.5" y="20.5" width="32" height="34"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" image="icons8-wine_glass">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="75" id="0nG-NF-1pa"/>
+                                        <constraint firstItem="lbn-eM-d0D" firstAttribute="centerY" secondItem="n9O-8A-vUf" secondAttribute="centerY" id="SMI-3U-v7Z"/>
+                                        <constraint firstItem="lbn-eM-d0D" firstAttribute="centerX" secondItem="n9O-8A-vUf" secondAttribute="centerX" id="btM-18-YI6"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhO-Er-zzM">
+                                    <rect key="frame" x="0.0" y="380" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxM-bz-VfM">
+                                            <rect key="frame" x="75.5" y="20.5" width="32" height="34"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" image="icons8-film_reel">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="hxM-bz-VfM" firstAttribute="centerX" secondItem="ZhO-Er-zzM" secondAttribute="centerX" id="0eS-eA-diQ"/>
+                                        <constraint firstAttribute="height" constant="75" id="Q7b-NG-61T"/>
+                                        <constraint firstItem="hxM-bz-VfM" firstAttribute="centerY" secondItem="ZhO-Er-zzM" secondAttribute="centerY" id="SuY-mb-Qyz"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34o-jC-00N">
+                                    <rect key="frame" x="0.0" y="456" width="183" height="75"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0C-lG-1Mc">
+                                            <rect key="frame" x="75.5" y="20.5" width="32" height="34"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                            <state key="normal" image="icons8-briefcase">
+                                                <color key="titleColor" red="0.75686274509999996" green="0.2274509804" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="s0C-lG-1Mc" firstAttribute="centerY" secondItem="34o-jC-00N" secondAttribute="centerY" id="Fsz-vv-7WO"/>
+                                        <constraint firstAttribute="height" constant="75" id="d4q-zB-awQ"/>
+                                        <constraint firstItem="s0C-lG-1Mc" firstAttribute="centerX" secondItem="34o-jC-00N" secondAttribute="centerX" id="rKC-Ji-2TM"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="248" horizontalCompressionResistancePriority="748" verticalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="2OP-8y-Ise">
+                                    <rect key="frame" x="0.0" y="532" width="183" height="135"/>
+                                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="m05-bb-Eza" firstAttribute="leading" secondItem="bF3-za-7cR" secondAttribute="leading" id="4Ot-Zv-JDe"/>
+                        <constraint firstAttribute="trailing" secondItem="m05-bb-Eza" secondAttribute="trailing" id="KdO-7R-Nyn"/>
+                        <constraint firstItem="m05-bb-Eza" firstAttribute="top" secondItem="bF3-za-7cR" secondAttribute="top" id="LFB-jb-txd"/>
+                        <constraint firstAttribute="bottom" secondItem="m05-bb-Eza" secondAttribute="bottom" id="vcf-hJ-BFA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bF3-za-7cR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6H3-3c-zrg"/>
+                <constraint firstItem="bF3-za-7cR" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="9AU-ZO-Sdw"/>
+                <constraint firstItem="bF3-za-7cR" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Vfc-j1-U1Z"/>
+                <constraint firstItem="bF3-za-7cR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hDf-1a-HE2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-75" y="136"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-briefcase" width="32" height="32"/>
+        <image name="icons8-film_reel" width="32" height="32"/>
+        <image name="icons8-image_file" width="32" height="32"/>
+        <image name="icons8-record" width="32" height="32"/>
+        <image name="icons8-saving_book" width="32" height="32"/>
+        <image name="icons8-wine_glass" width="32" height="32"/>
+    </resources>
+</document>

@@ -16,11 +16,17 @@ class ViewController: UIViewController  {
         super.viewDidLoad()
         
         //SideBar.shared.create(source: self.view, addView: ccView!, width: 200)
+        /* set view Controller view for menu
         sideBarContainer = TableViewController.newInstance(delegate: self)
         SideBar.shared.create(source: self.view, addView: sideBarContainer!.view , width: 120)
+        */
         
-        
-        
+    /* set CustomView :
+        let customSideBar = CustomSideBar(frame: self.view.frame)
+        SideBar.shared.create(source: self.view, addView: customSideBar , width: 250)
+    */
+        let grayView = GrayView(frame: self.view.frame)
+          SideBar.shared.create(source: self.view, addView: grayView , width: 100)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)) {
             SideBar.shared.showSideBar(shouldshow: true)
