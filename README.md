@@ -13,52 +13,20 @@ you can use in cocoapods
 pod 'AASideBar'
 ```
 
-![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/CountDowner.gif)
-![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/IMG_1291.jpg)
+![](https://github.com/amir-ardalanuk/AASideBar/blob/master/ScreenVideo2.gif)
+![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenVideo.gif)
+![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenView3.gif)
 
 ## init
 first : 
 ```swift
-@IBOutlet weak var vwCountDowner: AACountDowner!
+import AASideBar
 ```
 next : 
 ```swift
-vwCountDowner.config(days: 1, hour: 1, minute: 1, second: 5)
+ SideBar.shared.create(source: self.view, addView: sideBarContainer!.view , width: 120)
 ```
-or you can User ``Date`` but sure date is bigger than now
-```swift
-let date = Date()
-vwCountDowner.config(withDate: date)
-```
-## Style
-
-#### Visibility :
-```swift
-vwCountDowner.Visiblity(forDay: true, hour: true, minute: true, seconds: true)
-```
-
-#### Ui option : 
-```swift
-vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 5)
-```
-##### header title inVisible / visible
-```swift
-vwCountDowner.isTitleVisible = false 
-```
-##### font :
-```swift
-vwCountDowner.font = UIFont(name: "Verdana", size: 16)
-```
-#### element space :
-```swift
-vwCountDowner.elementSpacing = 0
-```
-#### Dot Divider ``:`` :
-```swift
-vwCountDowner.hasDotDivider = false
-```
-_please! if you need more options , tell to me_        
-
+you can add your view instead of sidevarContainer!.view
 
 ## License
 
