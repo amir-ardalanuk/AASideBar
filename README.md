@@ -30,4 +30,4 @@ you can add your view instead of sidevarContainer!.view
 
 ## License
 
-AACountDowner is available under the MIT license. See the LICENSE file for more information.
+AASideBar is available under the MIT license. See the LICENSE file for more information.
