@@ -14,8 +14,10 @@ pod 'AASideBar'
 ```
 
 ![](https://github.com/amir-ardalanuk/AASideBar/blob/master/ScreenVideo2.gif)
-![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenVideo.gif)
-![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenView3.gif)
+
+![](https://github.com/amir-ardalanuk/AASideBar/blob/master/screenView4.gif)
+
+![](https://github.com/amir-ardalanuk/AASideBar/blob/master/new-ScreenView.gif)
 
 ## init
 first : 
